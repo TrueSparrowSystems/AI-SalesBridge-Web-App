@@ -1,4 +1,4 @@
-## [project_name]
+## AI-SalesBridge
 
 ## Getting Started
 
