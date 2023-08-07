@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Test from "@/components/Test";
+import SalesforceConnectButton from "@/components/SalesforceConnectButton";
 
 export default function Home() {
   return (
@@ -11,7 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Test />
+        <div className="flex justify-center flex-col gap-2 items-center">
+          <h1 className="text-3xl font-bold">AI salesbridge</h1>
+          <SalesforceConnectButton />
+        </div>
       </main>
     </>
   );
