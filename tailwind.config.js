@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    backgroundImage: {
+      "salesforce-btn-pattern":
+        "linear-gradient(360deg, #DD1A77 -322.62%, #3F59BF 100%);",
+    },
   },
   plugins: [],
 };
